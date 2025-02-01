@@ -1,4 +1,23 @@
 .in{
     display: block;
-    background-image:./images/;
+    background-image:url(./images/background\ image1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:520px;
+}
+
+.sign > h1{
+    text-align: center;
+    color:white;
+}
+
+.in > h1{
+    color:red;
+    font-weight:bolder;
+}
+
+.sign > input{
+    text-align: center;
+    display: block;
+    height:20px;
 }
