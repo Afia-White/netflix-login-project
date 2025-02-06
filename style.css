@@ -1,23 +1,25 @@
-.in{
-    display: block;
-    background-image:url(./images/background\ image1.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:520px;
+.sign{
+    background-color:black;
+    height:300px;
+    width:400px;
+    margin-left:450px;
 }
 
 .sign > h1{
-    text-align: center;
     color:white;
+    margin-left:20px;
+}
+
+.in{
+    background-image:url(./images/background\ image1.webp);
+    height:520px;
 }
 
 .in > h1{
     color:red;
-    font-weight:bolder;
 }
 
 .sign > input{
-    text-align: center;
-    display: block;
-    height:20px;
+    display:block;
+    margin-bottom:20px;
 }
