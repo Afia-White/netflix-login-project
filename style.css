@@ -1,18 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 .sign{
     background-color:black;
     height:300px;
-    width:400px;
+    width:200px;
     margin-left:450px;
 }
 
 .sign > h1{
     color:white;
     margin-left:20px;
+    font-size:17.5px;
 }
 
 .in{
     background-image:url(./images/background\ image1.webp);
-    height:520px;
+    height:400px;
 }
 
 .in > h1{
@@ -22,4 +30,33 @@
 .sign > input{
     display:block;
     margin-bottom:20px;
+}
+
+.a{
+    text-decoration:none;
+    background-color:red;
+    color:white;
+    padding-left:10px;
+    width:170px;
+    font-weight:lighter;
+    font-size:15px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    margin:1px;
+}
+
+.or{
+    color:white;
+    background-color:white;
+}
+
+.use{
+    width:170px;
+    font-weight:lighter;
+    font-size:15px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    margin:1px;
 }
