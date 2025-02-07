@@ -7,33 +7,45 @@
 
 .sign{
     background-color:black;
-    height:300px;
-    width:200px;
-    margin-left:450px;
+    height:100%;
+    width:500px;
+    opacity:0.9;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding:50px;
 }
 
-.sign > h1{
+.sign > div h1{
     color:white;
     margin-left:20px;
     font-size:17.5px;
+    display: flex;
 }
 
 .in{
     background-image:url(./images/background\ image1.webp);
-    height:400px;
+    height:90vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .in > h1{
     color:red;
 }
 
-.sign > input{
-    display:block;
-    margin-bottom:20px;
+[type="email"],[type="password"]{
+    width:300px;
+    background-color:black;
+    height:40px;
+    
 }
 
 .a{
-    text-decoration:none;
+    /* text-decoration:none;
     background-color:red;
     color:white;
     padding-left:10px;
@@ -43,7 +55,7 @@
     text-align:center;
     display:flex;
     justify-content:center;
-    margin:1px;
+    margin:1px; */
 }
 
 .or{
