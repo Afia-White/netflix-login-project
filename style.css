@@ -47,11 +47,14 @@
 }
 
 .or{
-    color:white;
-    background-color:white;
+    color:gray;
 }
 
 .use{
+    text-decoration:none;
+    background-color:gray;
+    color:white;
+    padding-left:10px;
     width:170px;
     font-weight:lighter;
     font-size:15px;
@@ -59,4 +62,8 @@
     display:flex;
     justify-content:center;
     margin:1px;
+}
+
+.forgot{
+    color:white;
 }
