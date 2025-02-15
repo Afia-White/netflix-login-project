@@ -79,3 +79,10 @@
 .forgot{
     color:white;
 }
+
+.net{
+    color:red;
+    position:relative;
+    top:-80px;
+    left:-390px;
+}
